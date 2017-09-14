@@ -24,17 +24,10 @@ class Household extends Component {
           <h3>{household.name}</h3>
           <p>{household.address}</p>
           <p>{numeral(household.monthly_rate).format('$0,0.00')}</p>
-<<<<<<< HEAD
           {mealsNotAssociated.map(m => (<span key={m.id}><span>{m.name}</span><input onChange={() => this.handleOnChange(m.id)} type="checkbox" value={m.id} /></span>))}
           <div>
             <h2>Meals</h2>
             {mealsAssociated.map(m => <p key={m.id}>{m.name}</p>)}
-=======
-          {mealsNotAssociated.map(m => (<span key={m.id}><span>{m.name}</span><input onChange={() => this.handleOnChange(m.id)} type="checkbox" value="`${m.id}`" /></span>))}
-          <div>
-            <h2>Meals</h2>
-            {mealsAssociated.map(m => <p>{m.name}</p>)}
->>>>>>> 7f7b6b8147d88604a215acd8d04803e21fc28752
           </div>
         </div>
       )
