@@ -16,7 +16,7 @@
     "eslint-plugin-react": "^7.18.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.19.1",
-    "react-scripts": "1.0.10"
+    "react-scripts": "5.0.1"
   },
   "dependencies": {
     "date-fns": "^1.29.0",
